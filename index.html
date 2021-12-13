@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Quiz</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div id="alert">
+    <div class="alert-title">Поздравляю!</div>
+    Вы ответили правильно на все вопросы!
+  </div>
+  <form id="quiz-form">
+    <ol>
+      <li class="question-item">
+        <div>Что выведет этот код?<br>"<code>for (let i = 0; i < 5; i++) alert( i );</code>"</div>
+        <div>
+          <ol>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-1" value="false">
+                <code>0</code>
+              </label>
+            </li>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-1" value="true">
+                <code>от 0 до 4</code>
+              </label>
+            </li>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-1" value="false">
+                <code>от 0 до 5</code>
+              </label>
+            </li>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-1" value="false">
+                <code>5</code>
+              </label>
+            </li>
+          </ol>
+        </div>
+      </li>
+      <li class="question-item">
+        <div>Как называется действие, когда функция вызывает саму себя?</div>
+        <div>
+          <ol>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-2" value="false">
+                Исключение
+              </label>
+            </li>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-2" value="false">
+                Итерация
+              </label>
+            </li>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-2" value="true">
+                Шаг рекурсии
+              </label>
+            </li>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-2" value="false">
+                Я не знаю(
+              </label>
+            </li>
+          </ol>
+        </div>
+      </li>
+      <li class="question-item">
+        <div>Какое утверждение из этого списка верно?<br><code>Стрелочные функции:</code></div>
+        <div>
+          <ol>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-3" value="true">
+                <code>Не могут быть вызваны с <code>new</code></code>
+              </label>
+            </li>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-3" value="false">
+                <code>Бывают трех типов: Без фигурных скобок, с фигурными скобками и с амперсантом.</code>
+              </label>
+            </li>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-3" value="false">
+                <code>Функции-стрелки не могут быть использованны так же, как и Function Ecpression</code>
+              </label>
+            </li>
+            <li class="answer-item">
+              <label>
+                <input class="answer" type="radio" name="answer-3" value="false">
+                <code>Нельзя опускать круглые скобки вокруг параметров если есть только один аргумент.</code>
+              </label>
+            </li>
+          </ol>
+        </div>
+      </li>
+    </ol>
+    <button type="submit">Проверить меня!</button>
+  </form>
+</body>
+</html>
